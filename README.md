@@ -55,3 +55,16 @@ The application supports multiple user roles to manage access and content secure
 
 These features demonstrate how access control, moderation workflows, and simple analytics
 can be integrated into a cloud-based application.
+## Tech Stack
+- C#
+- .NET
+- ASP.NET (if applicable)
+- Microsoft Azure (Cloud Storage)
+- Visual Studio
+- ## How to Run
+1. Clone the repository
+2. Open the solution file (`.sln`) in Visual Studio
+3. Restore NuGet packages
+4. Configure Azure storage connection settings
+5. Build and run the application locally
+
