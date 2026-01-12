@@ -27,3 +27,31 @@ The application follows a client–server architecture with cloud-backed storage
 
 This separation allows the application to scale independently of storage
 and supports future enhancements such as moderation workflows and analytics.
+## Key Features & User Roles
+
+### Role-Based Access Control
+The application supports multiple user roles to manage access and content securely:
+
+- **Admin**
+  - Manages user accounts and roles
+  - Can add, modify, or remove users
+  - Oversees system-level configurations
+
+- **Approver**
+  - Reviews uploaded images
+  - Approves or rejects images before they become accessible
+  - Ensures content quality and compliance
+
+- **Standard User**
+  - Uploads images to the platform
+  - Views approved images based on assigned permissions
+
+---
+
+### Content Moderation & Usage Tracking
+- Images follow an approval workflow before being published
+- User-specific image views are tracked
+- View counts provide basic usage analytics and engagement insights
+
+These features demonstrate how access control, moderation workflows, and simple analytics
+can be integrated into a cloud-based application.
